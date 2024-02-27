@@ -1,0 +1,14 @@
+.portfolio {
+    padding: 50px 0;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    border-left: 4px solid #64ffda;
+    padding-left: 20px;
+  }
+  
+  .project h3 {
+    color: #ccd6f6;
+  }
+  

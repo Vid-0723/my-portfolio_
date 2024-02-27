@@ -1,0 +1,73 @@
+.Home {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Fixed sidebar for header and navbar */
+  .sidebar {
+    flex: 0 0 300px; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    background-color: #0a192f; /* Dark theme, adjust as needed */
+    color: white;
+    /* overflow-y: auto; /* Allows scrolling if content is too long */
+  }
+  
+  /* Styles for the main content area */
+  .mainContent {
+    margin-left: 300px; /* Should match the width of the sidebar */
+    width: calc(100% - 300px);
+    margin-top: 20%;
+    /* calc(100% - 300px); /* Adjust width based on the sidebar */
+    /* width: 1000px; */
+    /* overflow-y: scroll; */
+    padding-left: 20%;
+  }
+  
+  .header {
+    margin-bottom: 2rem;
+  }
+  
+  .nav {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin-bottom: 1rem;
+  }
+  
+  .nav li a {
+    color: rgb(226 232 240);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav li a:hover,
+  .nav li a.active {
+    color: rgb(226, 232, 240); /* Highlight color */
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  }
+  
+  .social-links a {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: rgb(226 232 240);
+  }
+  

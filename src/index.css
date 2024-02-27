@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* Basic Reset */
+* {
+  margin: 10pt;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /* Brittany uses a clean, modern sans-serif font */
+  color: #8892b0; /* A soft, neutral color for text */
+  background-color: #0a192f; /* A deep navy background */
+  line-height: 1.6;
+}
+
+
+/* Layout and Structure */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 15px;
+}
+
+/* .section {
+  margin-bottom: 100px;
+} */
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: #ccd6f6; /* A lighter shade for headings */
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* Buttons and Interactions */
+/* .button {
+  background-color: #112240; 
+  color: #64ffda;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #233554;
+} */
+
+/* Utility Classes */
+.text-center {
+  text-align: left;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 30px 15px;
+  }
+}
